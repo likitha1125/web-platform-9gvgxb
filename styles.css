@@ -1,0 +1,91 @@
+ @import url('https://fonts.googleapis.com/css2?family=Borel&family=Exo+2&family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&family=Work+Sans&display=swap');
+ *{ margin: 0ch;
+   padding: 0;
+   
+ }
+ body{
+   text-align: center;
+   font-family: 'Montserrat',cursive;
+   margin: auto;
+   padding: 60px;
+   width: 820px;
+   background-color: rgb(234, 210, 214);
+  
+
+ }
+ table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  box-shadow:  2px 2px 4px 4px #6e7070;
+  border-bottom: solid red 2px;
+  top: 1000px;
+  
+
+}
+
+th, td {
+  
+  padding: 15px;
+  text-align: center;
+
+
+}
+th{
+  background-color:rgb(240, 45, 45);
+  border-color: rgb(240, 45, 45);
+  color: white;
+}
+#capt{
+  margin: 5%;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+
+}
+tr:nth-of-type(even){
+  background-color: white;
+
+}
+tr:nth-of-type(odd)
+{
+  background-color: rgb(226, 222, 222);
+  border-color: rgb(226, 222, 222);
+  
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+#kalvium {
+  position: absolute;
+  top: 0.5px;
+  left: 20px;
+  width: 350px;
+}
+#dp{
+  position:absolute;
+  width: 70px;
+  top: 45px;
+  padding-left: 130px;
+}
+#student{
+  position: absolute;
+  font-size: x-large;
+  top: 65px;
+  padding-left: 600px;
+  color: red;
+}
+#cors{
+  position: absolute;
+  font-size: x-large;
+  top: 65px;
+  padding-left: 740px;
+  color: red;
+}
+#capt::after{
+  content: "\1F4C5";
+  font-size: 40px;
+margin-right: 10px;
+
+}
